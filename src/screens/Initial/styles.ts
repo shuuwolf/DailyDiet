@@ -21,3 +21,18 @@ export const Header = styled.View`
     flex-direction: row;
     justify-content: space-between;
 `;
+
+export const ListMeal = styled.View`
+    border: 1px solid ${({theme}) => theme.COLORS.GRAY_500};
+    padding: 14px 16px 14px 12px;
+    border-radius: 6px;
+
+    flex-direction: row;
+    align-items: center;
+`;
+
+export const DateTitle = styled.Text`
+    color: ${({theme}) => theme.COLORS.GRAY_100};
+    font-size: ${({theme}) => theme.FONT_SIZE.LG}px;
+    font-weight: ${({theme}) => theme.FONT_FAMILY.BOLD};
+`;
